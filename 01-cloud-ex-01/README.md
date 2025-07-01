@@ -14,3 +14,9 @@ PING 13.51.207.134 (13.51.207.134): 56 data bytes
 4 packets transmitted, 4 packets received, 0.0% packet loss
 round-trip min/avg/max/stddev = 82.961/88.523/91.928/3.420 ms
 
+
+Screenshot:
+
+<img width="493" alt="Ekran Resmi 2025-07-01 14 15 52" src="https://github.com/user-attachments/assets/4127e735-9f58-44a2-a3b0-c6b53c73b97e" />
+
+
