@@ -1,1 +1,1 @@
-<img width="1440" alt="Ekran Resmi 2025-07-02 11 19 51" src="https://github.com/user-attachments/assets/cff4ea3d-5fda-4153-a4bb-a6eea4a44c53" />
+<img width="708" alt="Ekran Resmi 2025-07-02 12 54 15" src="https://github.com/user-attachments/assets/4afa5152-7206-4b6a-865a-3e841327bd28" />
