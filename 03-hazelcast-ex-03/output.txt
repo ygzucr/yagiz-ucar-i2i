@@ -1,0 +1,48 @@
+/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=65288:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/yagizucar/IdeaProjects/javaEduProjs/hazelcastExample-03/target/classes:/Users/yagizucar/.m2/repository/com/hazelcast/hazelcast/5.3.6/hazelcast-5.3.6.jar org.example.hazelcastExample03
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.spi.ClientInvocationService
+INFO: hz.client_1 [dev] [5.3.6] Running with 2 response threads, dynamic=true
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is STARTING
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is STARTED
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [dev] [5.3.6] Trying to connect to cluster: dev
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [dev] [5.3.6] Trying to connect to [13.51.207.134]:5701
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is CLIENT_CONNECTED
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [dev] [5.3.6] Authenticated with server [172.17.0.4]:5701:5f99affa-2e76-4958-a92c-bc1ca9d4b8e5, server version: 5.5.0, local address: /192.168.51.126:65294
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.internal.diagnostics.Diagnostics
+INFO: hz.client_1 [dev] [5.3.6] Diagnostics disabled. To enable add -Dhazelcast.diagnostics.enabled=true to the JVM arguments.
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.spi.ClientClusterService
+INFO: hz.client_1 [dev] [5.3.6] 
+
+Members [1] {
+	Member [172.17.0.4]:5701 - 5f99affa-2e76-4958-a92c-bc1ca9d4b8e5
+}
+
+Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.statistics.ClientStatisticsService
+INFO: Client statistics is enabled with period 5 seconds.
+10 Person added.
+Person{name='Person-0'}
+Person{name='Person-1'}
+Person{name='Person-2'}
+Person{name='Person-3'}
+Person{name='Person-4'}
+Person{name='Person-5'}
+Person{name='Person-6'}
+Person{name='Person-7'}
+Person{name='Person-8'}
+Person{name='Person-9'}
+Total number of person: 10
+Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is SHUTTING_DOWN
+Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.client.impl.connection.ClientConnectionManager
+INFO: hz.client_1 [dev] [5.3.6] Removed connection to endpoint: [172.17.0.4]:5701:5f99affa-2e76-4958-a92c-bc1ca9d4b8e5, connection: ClientConnection{alive=false, connectionId=1, channel=NioChannel{/192.168.51.126:65294->/13.51.207.134:5701}, remoteAddress=[172.17.0.4]:5701, lastReadTime=2025-07-03 11:32:45.331, lastWriteTime=2025-07-03 11:32:45.248, closedTime=2025-07-03 11:32:45.332}
+Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is CLIENT_DISCONNECTED
+Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
+INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is SHUTDOWN
+
+Process finished with exit code 0
