@@ -1,19 +1,19 @@
 Last login: Wed Jul  2 07:10:18 2025 from 13.48.4.202
-[ec2-user@ip-172-31-35-71 ~]$ docker pull hazelcast/hazelcast:latest
+[ec2-user@ip~]$ docker pull hazelcast/hazelcast:latest
 latest: Pulling from hazelcast/hazelcast
 Digest: sha256:5dd5d31c7a0685d832f02eba03556898689ce85796c6b030132e93b7c0d77bd9
 Status: Image is up to date for hazelcast/hazelcast:latest
 docker.io/hazelcast/hazelcast:latest
-[ec2-user@ip-172-31-35-71 ~]$ docker run -d --name hazelcast -p 5701:5701 hazelcast/hazelcast:latest
+[ec2-user@ip ~]$ docker run -d --name hazelcast -p 5701:5701 hazelcast/hazelcast:latest
 34487d0143acbb16cec302845a725329594fad750f833ecd006e52fee424ad36
-[ec2-user@ip-172-31-35-71 ~]$ docker pull hazelcast/management-center:latest
+[ec2-user@ip~]$ docker pull hazelcast/management-center:latest
 latest: Pulling from hazelcast/management-center
 Digest: sha256:a0ca62ddba071e3b163654e90c6f6538aae95dc998ce58e865e06562076c9c0b
 Status: Image is up to date for hazelcast/management-center:latest
 docker.io/hazelcast/management-center:latest
-[ec2-user@ip-172-31-35-71 ~]$ docker run -d --name management-center -p 8080:8080 hazelcast/management-center:latest
+[ec2-user@ip~]$ docker run -d --name management-center -p 8080:8080 hazelcast/management-center:latest
 65adcb55852456cc9ec1247656582542d846a41463df206dc818348db6737353
-[ec2-user@ip-172-31-35-71 ~]$ docker ps
+[ec2-user@ip~]$ docker ps
 CONTAINER ID   IMAGE                                COMMAND                  CREATED              STATUS              PORTS                                                           NAMES
 65adcb558524   hazelcast/management-center:latest   "bash ./bin/mc-start…"   About a minute ago   Up About a minute   8081/tcp, 0.0.0.0:8080->8080/tcp, :::8080->8080/tcp, 8443/tcp   management-center
 34487d0143ac   hazelcast/hazelcast:latest           "hz start"               About a minute ago   Up About a minute   0.0.0.0:5701->5701/tcp, :::5701->5701/tcp                       hazelcast
