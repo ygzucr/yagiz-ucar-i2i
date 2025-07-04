@@ -9,7 +9,7 @@ public class hazelcastExample03 {
     public static void main(String[] args) {
 
         ClientConfig clientConfig = new ClientConfig();
-        clientConfig.getNetworkConfig().addAddress("13.51.207.134:5701");
+        clientConfig.getNetworkConfig().addAddress("<PRIVATE ID>");
 
         HazelcastInstance client = HazelcastClient.newHazelcastClient(clientConfig);
         IMap<Integer, Person> map = client.getMap("personMap");
