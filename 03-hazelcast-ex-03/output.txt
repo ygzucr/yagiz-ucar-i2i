@@ -39,7 +39,7 @@ Total number of person: 10
 Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
 INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is SHUTTING_DOWN
 Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.client.impl.connection.ClientConnectionManager
-INFO: hz.client_1 [dev] [5.3.6] Removed connection to endpoint: [172.17.0.4]:5701:5f99affa-2e76-4958-a92c-bc1ca9d4b8e5, connection: ClientConnection{alive=false, connectionId=1, channel=NioChannel{/192.168.51.126:65294->/13.51.207.134:5701}, remoteAddress=[172.17.0.4]:5701, lastReadTime=2025-07-03 11:32:45.331, lastWriteTime=2025-07-03 11:32:45.248, closedTime=2025-07-03 11:32:45.332}
+INFO: hz.client_1 [dev] [5.3.6] Removed connection to endpoint: [172.17.0.4]:5701:5f99affa-2e76-4958-a92c-bc1ca9d4b8e5, connection: ClientConnection{alive=false, connectionId=1, channel=NioChannel{/192.168.51.126:65294->/13.51.207.134:5701}, remoteAddress=[IP]:5701, lastReadTime=2025-07-03 11:32:45.331, lastWriteTime=2025-07-03 11:32:45.248, closedTime=2025-07-03 11:32:45.332}
 Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
 INFO: hz.client_1 [dev] [5.3.6] HazelcastClient 5.3.6 (20231109 - 9903dc9) is CLIENT_DISCONNECTED
 Tem 03, 2025 11:32:45 ÖÖ com.hazelcast.core.LifecycleService
