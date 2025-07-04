@@ -19,7 +19,7 @@ Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.spi.ClientClusterService
 INFO: hz.client_1 [dev] [5.3.6] 
 
 Members [1] {
-	Member [172.17.0.4]:5701 - 5f99affa-2e76-4958-a92c-bc1ca9d4b8e5
+	Member [IP]:5701 - 5f99affa-2e76-4958-a92c-bc1ca9d4b8e5
 }
 
 Tem 03, 2025 11:32:43 ÖÖ com.hazelcast.client.impl.statistics.ClientStatisticsService
