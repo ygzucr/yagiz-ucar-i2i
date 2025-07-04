@@ -16,7 +16,7 @@ public class ConsumerApp {
 
         Properties props = new Properties();
 
-        props.put("bootstrap.servers", "13.51.207.134:9092");
+        props.put("bootstrap.servers", "IP");
         props.put("group.id", "student-group6");
         props.put("client.id", "student-consumer");
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
