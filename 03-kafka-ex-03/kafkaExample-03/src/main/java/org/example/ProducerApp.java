@@ -14,7 +14,7 @@ public class ProducerApp {
         Properties settings = new Properties();
 
         settings.put("client.id", "student-producer");
-        settings.put("bootstrap.servers", "13.51.207.134:9092");
+        settings.put("bootstrap.servers", "IP");
         settings.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
         settings.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
 
