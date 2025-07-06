@@ -1,0 +1,8 @@
+docker pull full360/docker-voltdb-ce
+
+
+docker run -d \
+  --name voltdb \
+  -p 21212:21212 \
+  -p 8080:8080 \
+  full360/docker-voltdb-ce
